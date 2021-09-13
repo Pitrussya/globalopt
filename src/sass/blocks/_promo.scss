@@ -1,3 +1,98 @@
 .promo {
-    background: #000;
+    position: relative;
+    height: 100vh;
+    position: relative;
+    background: url('/img/promo_bg.jpg') no-repeat 50%/cover;
+
+    &__overlay {
+        position: absolute;
+        background: rgba(46, 46, 46, 0.7);
+        height: 100vh;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+    &__descr{
+        padding: 0 136px;
+        position: relative;
+        text-align: center;
+        margin-top: 9px;
+        &-title{
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    &__title {
+        letter-spacing: -3px;
+        font-size: 64px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ec644b;
+    }
+    &__subtitle {
+        font-size: 34px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__line {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 32px;
+        &-one {
+            width: 400px;
+            height: 1px;
+            background: #fff;
+        }
+        span {
+            width: 8px;
+            height: 8px;
+            border-radius: 100%;
+            background: #fff;
+        }
+        &-two {
+            width: 400px;
+            height: 1px;
+            background: #fff;
+        }
+    }
+    &__icon {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 27px;
+        &-descr {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #ffffff;
+            margin-top: 19px;
+            width: 260px;
+        }
+    }
+    &_btn {
+        width: 230px;
+        height: 57px;
+        border-radius: 30px;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        background: $main-color;
+        border: none;
+    }
+}
+.center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
 }
