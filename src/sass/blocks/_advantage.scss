@@ -1,0 +1,27 @@
+.advantage {
+    padding: 58px 0 51px 0;
+    &__descr {
+        display: grid;
+        grid-template-columns: repeat(2, 527px);
+        justify-content: space-between;
+        margin-top: 31px;
+        row-gap: 36px;
+        &-item {
+            display: grid;
+            grid-template-columns: 51px 459px;
+            align-items: center;
+            column-gap: 17px;
+        }
+        &-title {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 700;
+            color: $main-color;
+        }
+        &-text {
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+        }
+    }
+}
