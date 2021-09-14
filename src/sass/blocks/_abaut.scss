@@ -1,0 +1,24 @@
+.abaut {
+    padding: 51px 0 57px 0;
+    &__wrapper {
+        display: flex;
+        margin-top: 37px;
+    }
+    &__item {
+        &-title {
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: $main-color;
+            text-align: center;
+            margin-top: 28px;
+        }
+        &-text {
+            font-size: 14px;
+            font-weight: 300;
+            color: $color-text3;
+            margin-top: 11px;
+            text-align-last: center;
+        }
+    }
+}

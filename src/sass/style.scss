@@ -16,9 +16,18 @@ p {
     width: 1140px;
     margin: 0 auto;
   }
+.divider {
+  width: 148px;
+  height: 1px;
+  background:$main-color;
+  margin: 20px auto 0 auto;
+
+}
 
 @import 'blocks/promo';
 @import 'blocks/advantage';
+@import 'blocks/abaut';
+@import 'blocks/addinfo';
 @import 'blocks/title';
 @import 'blocks/header';
 @import 'blocks/button';

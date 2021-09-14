@@ -1,5 +1,6 @@
 .advantage {
     padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
     &__descr {
         display: grid;
         grid-template-columns: repeat(2, 527px);
@@ -21,7 +22,7 @@
         &-text {
             font-size: 14px;
             font-weight: 300;
-            color: #3a3a3a;
+            color: $color-text3;
         }
     }
 }

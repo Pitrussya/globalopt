@@ -3,12 +3,15 @@
     line-height: 23px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #2e2e2e;
+    color: $color-text2;
     text-align: center;
 }
-.subtitle {
+.descr {
     font-size: 21px;
     line-height: 24px;
     font-weight: 300;
-    color: #2e2e2e;
+    color: $color-text2;
+    margin: 17px auto 0 auto;
+    text-align: center;
+    width: 77%;
 }

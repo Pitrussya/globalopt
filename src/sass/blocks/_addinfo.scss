@@ -1,0 +1,40 @@
+.addinfo {
+    position: relative;
+    padding: 58px 0 75px 0;
+    background: url('/img/img_bg1.jpg') no-repeat 50%/cover;
+    width: 100vw;
+    height: 342px;
+    &__overlay {
+        position: absolute;
+        background: rgba(46, 46, 46, 0.7);
+        height: 342px;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+    &__wrapper{
+        position: relative;
+        &-icon {
+            display: block;
+            margin: 0 auto;
+
+        }
+        &-title {
+            font-size: 26px;
+            line-height: 23px;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+        }
+        &-descr {
+            font-size: 19px;
+            line-height: 27px;
+            font-weight: 300;
+            color: #ffffff;
+            width: 77%;
+            margin: 22px auto 0 auto;
+        }
+    }
+
+}
