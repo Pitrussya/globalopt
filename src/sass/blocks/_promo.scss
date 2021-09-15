@@ -88,6 +88,9 @@
         color: #ffffff;
         background: $main-color;
         border: none;
+        &:hover {
+            background-color: #dc5238;
+        }
     }
 }
 .center {
