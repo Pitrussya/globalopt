@@ -1,0 +1,54 @@
+.carusel {
+    position: relative;
+    width: 611px;
+    margin: 31px auto 0 auto;
+    &__wrapper {
+        overflow: hidden;
+    }
+    &__inner {
+        display: flex;
+        transition: all .5s;
+    }
+    &__item {
+        text-align: center;
+        &-img {
+            display: block;
+            border-radius: 100%;
+            width: 114px;
+            height: 114px;
+            margin: 0 auto;
+        }
+        &-title {
+            margin-top: 19px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #3a3a3a;
+          }
+        &-text {
+            font-size: 14.1px;
+            font-weight: 300;
+            text-align: justify;
+            text-align-last: center;
+          }
+    }
+    &__btn {
+        border: none;
+        background: none;
+        text-decoration: none;
+        outline: none !important; 
+    }
+  }
+
+  .prev {
+    position: absolute;
+    top: 14%;
+    left: 31%;
+  }
+
+  .next {
+    position: absolute;
+    top: 14%;
+    right: 32%;
+  }

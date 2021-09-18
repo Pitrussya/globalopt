@@ -9,6 +9,8 @@
     color: #ffffff;
     background: $main-color;
     border: none;
+    text-decoration: none;
+    outline: none !important;
     &:hover {
         background-color: #dc5238;
     }
