@@ -1,0 +1,93 @@
+.feedback {
+    position: relative;
+    padding: 62px 0 79px 0;
+    background: url('/img/img_bg3.jpg') no-repeat 50%/cover;
+    height: 438px;
+    &__overlay {
+        position: absolute;
+        background: #414141;
+        opacity: .5;
+        height: 438px;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+    &__wrapper {
+        position: relative;
+        max-width: 896px;
+        margin: 0 auto;
+    }
+    &__container {
+        background-color: #25333c;
+        padding: 20px 0;
+        text-align: center;
+    }
+    &__title {
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__wrap {
+        &-input{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            width: 815px;
+            margin: 0 auto;
+        }
+    }
+    &__form {
+        position: relative;
+        padding: 17px 0 25px 0; 
+        &-over {
+            position: absolute;
+            height: 100%;
+            left: 0;
+            top: 0;
+            right: 0;
+            opacity: 0.7;
+            background-color: #ffffff;
+        }
+        &-input {
+            input {
+                width: 257px;
+                height: 45px;
+                padding: 0 20px 0 20px;
+                font-size: 12px;
+                border-radius: 25px;
+                border: 1px solid #898989;
+                outline-style: none;
+                background: #ffffff;
+
+            }
+        }
+        &-textarea {
+            display: flex;
+            justify-content: center;
+            margin-top: 6px;
+            textarea {
+                width: 815px;
+                min-height: 73px;
+                position: relative;
+                padding: 9px 20px;
+                border: 1px solid #898989;
+                outline-style: none;
+                background: #ffffff;
+                border-radius: 10px;
+                resize: none;
+            }
+        }
+        &-btn {
+            position: relative;
+            margin-top: 16px;
+            text-align: center;
+        }
+    }
+}
